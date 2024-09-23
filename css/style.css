@@ -274,6 +274,7 @@ footer {
 }
 
 .upper-footer p {
+  display: inline;
   line-height: 30px;
   font-size: 20px;
   font-weight: bold;
@@ -281,9 +282,16 @@ footer {
   margin: 0 10px;
 }
 
-.image-align > img {
+.footer-text-align > img {
+  display: inline-block;
   width: 30px;
   margin: 0px 10px;
+}
+
+.footer-image-center > img {
+  display: inline-block;
+  width: 30px;
+  margin: 20px 10px;
 }
 
 .upper-footer .large-col {
